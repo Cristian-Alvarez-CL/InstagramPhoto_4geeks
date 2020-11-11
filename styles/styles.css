@@ -1,0 +1,26 @@
+body{
+    background: grey;
+    font-family: 'Handlee', cursive;
+    
+}
+
+header h1{
+    background: white;
+    text-align: center;
+    margin: 0;
+}
+
+section{
+    background: white;
+
+}
+
+.box1{
+    width: 25%;
+    margin:auto;
+}
+
+span{
+    float: right;
+    margin: 0%;
+}
