@@ -1,26 +1,56 @@
 body{
     background: grey;
     font-family: 'Handlee', cursive;
-    
+    margin:0;
 }
 
-header h1{
+div{
+    box-sizing: border-box;
+}
+
+header{
     background: white;
-    text-align: center;
+    padding: 10px;
+    margin:0;
+}
+
+.titulo{
+    margin:0;
+}
+
+.contenedor-post{
+    background: white;
+    margin-top: 10%;
+}
+
+.contenedor-post img{
+    width: 100%;
+}
+
+.contenedor-post .title-post-header div:first-child{
+    display: inline-block;
+    width: 80%;
+}
+
+.contenedor-post .title-post-header div:last-child{
+    display: inline-block;
+    margin:0;
+    width: 18%;
+    padding: 10px;
+    text-align: right;
+    color:grey;
+}
+
+.contenedor-post h2, p{
+    padding: 10px;
     margin: 0;
 }
 
-section{
-    background: white;
-
+.contenedor{
+    width: 600px;
+    margin: auto;
 }
 
-.box1{
-    width: 25%;
-    margin:auto;
-}
-
-span{
-    float: right;
-    margin: 0%;
+.contenedor h1{
+    text-align: center;
 }
